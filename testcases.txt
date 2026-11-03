@@ -1,0 +1,22 @@
+SIMPLE BILLING SYSTEM — PS NO. 33
+
+Catalogue: Rice Rs.50, Sugar Rs.40, Oil Rs.120. GST 5%.
+
+TEST 1 — Rice x2
+Expected: Rice x2 added | Amount: 100
+Subtotal 100.00 | GST 5.00 | Grand Total 105.00
+
+TEST 2 — Sugar x1
+Expected: Sugar x1 added | Amount: 40
+Subtotal 40.00 | GST 2.00 | Grand Total 42.00
+
+TEST 3 — Invalid inputs
+(a) Product Soap -> Invalid product. Available: Rice, Sugar, Oil
+(b) Rice quantity 0 -> Quantity must be at least 1.
+
+TEST 4 — Customer Riya; Rice x2, Oil x1, Sugar x3
+Expected line amounts: 100, 120, 120
+Subtotal: 340.00
+GST (5%): 17.00
+Grand Total: 357.00
+Bill saved to bill.txt
