@@ -13,6 +13,15 @@ Dictionary (product catalogue), list (bill items), functions (validation/calcula
 Python 3 only. No external libraries or pip installation required.
 
 ## Run
+
+
+## Project Mentor
+
+**Mentored by:** [Mr. Satyaprakash Sethy](https://github.com/SATYAPRAKASHSETHY)
+
+**GitHub:** [@SATYAPRAKASHSETHY](https://github.com/SATYAPRAKASHSETHY)
+
+**Role:** Python Mentor / Technical Guide
 Keep `one.py` in a folder and run:
 `python one.py`
 
